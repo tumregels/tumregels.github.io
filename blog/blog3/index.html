@@ -420,6 +420,23 @@
     }
 </style>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+<pre class="mermaid"><code>graph LR
+  A[Start] --&gt; B{Error?};
+  B --&gt;|Yes| C[Hmm...];
+  C --&gt; D[Debug];
+  D --&gt; B;
+  B ----&gt;|No| E[Yay!];</code></pre>
+<pre class="mermaid"><code>stateDiagram-v2
+  state fork_state &lt;&lt;fork&gt;&gt;
+    [*] --&gt; fork_state
+    fork_state --&gt; State2
+    fork_state --&gt; State3
+
+    state join_state &lt;&lt;join&gt;&gt;
+    State2 --&gt; join_state
+    State3 --&gt; join_state
+    join_state --&gt; State4
+    State4 --&gt; [*]</code></pre>
 
 
 
