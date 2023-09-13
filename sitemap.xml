@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://tumregels.github.io/myblog/</loc>
+         <lastmod>2023-09-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://tumregels.github.io/myblog/tags/</loc>
+         <lastmod>2023-09-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://tumregels.github.io/myblog/blog/blog1/</loc>
+         <lastmod>2023-09-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://tumregels.github.io/myblog/blog/blog2/</loc>
+         <lastmod>2023-09-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://tumregels.github.io/myblog/blog/blog3/</loc>
+         <lastmod>2023-09-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
